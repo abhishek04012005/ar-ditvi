@@ -1,0 +1,135 @@
+:root {
+    --primary-color: #65318E;
+    --transition-speed: 0.3s;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 4rem;
+}
+
+.faqs {
+    margin: 0;
+}
+
+.faqs h1 {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+    color: var(--primary-color);
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.faqs-inner {
+    background-image: url(../../assets//background/blue.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.faqs-container {
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: var(--secondary-color);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition-speed) ease;
+}
+
+.faq-item:hover {
+    transform: translateY(-2px);
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-md);
+    cursor: pointer;
+    transition: background-color var(--transition-speed) ease;
+}
+
+.faq-question h3 {
+    margin: 0;
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    color: var(--primary-color);
+    flex: 1;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.faq-icon {
+    color: var(--primary-color);
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    flex-shrink: 0;
+}
+
+.faq-answer {
+    padding: 0 var(--spacing-md) var(--spacing-md);
+    animation: slideDown var(--transition-speed) ease-out;
+}
+
+.faq-answer p {
+    margin: 0;
+    line-height: 1.6;
+    color: #666;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+}
+
+/* Tablet Devices */
+@media screen and (max-width: 768px) {
+
+
+    .faqs-container {
+        padding: 0 0.5rem;
+    }
+
+    .faq-question {
+        padding: 1rem;
+    }
+
+    .faq-answer {
+        padding: 0 1rem 1rem;
+    }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+    .faqs h1 {
+        margin-bottom: 2rem;
+    }
+
+    .faq-item {
+        margin-bottom: 0.75rem;
+    }
+
+    .faq-question {
+        padding: 0.875rem;
+    }
+
+    .faq-answer {
+        padding: 0 0.875rem 0.875rem;
+    }
+}
+
+/* Animation */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+
+    .faq-answer,
+    .faq-item {
+        animation: none;
+        transition: none;
+    }
+}

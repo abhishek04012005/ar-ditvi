@@ -1,0 +1,79 @@
+
+
+.arbook-box-horizontal-content {
+    border-radius: var(--box-border-radius);
+    box-shadow: var(--box-box-shadow);
+    padding: 2rem;
+    margin: 2rem 0; 
+}
+
+.arbook-box-horizontal-left {
+    height: 100%;
+}
+
+.arbook-box-horizontal-image {
+    height: 300px;
+    overflow: hidden;
+}
+
+.arbook-box-horizontal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--box-border-radius);
+}
+
+.arbook-box-horizontal-button {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.arbook-box-horizontal-button button {
+    border-radius: var(--button-border-radius);
+    height: 2.2rem;
+    width: 14rem;
+    border: none;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.arbook-box-horizontal-button .arbook-box-horizontal-btn-left {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.arbook-box-horizontal-right-text {  
+    height: 300px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.arbook-box-horizontal-right-text h2 {
+   margin: 0;
+   color: var(--primary-color);
+}
+
+.arbook-box-horizontal-right-text p {
+    text-align: justify;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    line-height: 1.309rem;
+}
+
+.arbook-box-horizontal-text-button {
+    padding-top: 1rem;
+}
+
+.arbook-box-horizontal-btn-text {
+    border-radius: var(--button-border-radius);
+    height: 2.2rem;
+    width: 14rem;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+    color: var(--primary-color);
+    background-color: transparent;
+    font-weight: 900;
+}
+
