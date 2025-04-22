@@ -3,30 +3,36 @@ import './WhyAR.css'
 import Container from '../../structure/Container/Container'
 import Heading from '../../structure/Heading/Heading'
 
-
-const whyAR = [
+const whyARData = [
     {
         id: 1,
-        description: "Transforms Traditional Study into Modern Learning."
+        title: "Modern Learning",
+        description: "Transforms Traditional Study into Modern Learning",
+        icon: "🎓"
     },
     {
         id: 2,
-        description: "Enables Easy Visualization for Kids."
+        title: "Easy Visualization",
+        description: "Enables Easy Visualization for Kids",
+        icon: "👁️"
     },
     {
         id: 3,
-        description: "Boosts Memory Retention for Longer Learning."
+        title: "Better Retention",
+        description: "Boosts Memory Retention for Longer Learning",
+        icon: "🧠"
     },
     {
         id: 4,
-        description: "Prepares Kids for Tomorrow's Competitive Edge."
+        title: "Future Ready",
+        description: "Prepares Kids for Tomorrow's Competitive Edge",
+        icon: "🚀"
     }
 ]
 
-
 const WhyAR = () => {
     return (
-        <div className="whyar">
+        <section className="whyar" id="whyar">
             <Heading title="Why AR?" />
             <div className="whyar-inner">
                 <Container>
@@ -34,18 +40,19 @@ const WhyAR = () => {
                         <h1>Empower your child with AR—modern learning, clear visuals, lasting memory, and a future-ready edge.</h1>
                     </div>
                     <div className="whyar-circle">
-                        {whyAR.map((WHYAR) => (
-                            <div className="whyar-content" key={WHYAR.id}>
+                        {whyARData.map((item) => (
+                            <div className="whyar-content" key={item.id}>
                                 <div className="whyar-text">
-                                    <p>{WHYAR.description}</p>
+                                    <span className="whyar-icon">{item.icon}</span>
+                                    <h3>{item.title}</h3>
+                                    <p>{item.description}</p>
                                 </div>
                             </div>
                         ))}
-
                     </div>
                 </Container>
             </div>
-        </div>
+        </section>
     )
 }
 

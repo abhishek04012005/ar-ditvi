@@ -14,13 +14,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
 
-      <Router basename='/'>
+      <Router basename='/ditvi-ar'>
         <div className="App">
 
           <Navbar />
           <Routes>
             <Route path="/" element={<Main />} />
-            <Route path="/ar-book-detail" element={<ARBookDetails />} />
+            <Route path="/ar-book-detail/:bookSlug" element={<ARBookDetails />} />
 
           </Routes>
           <Footer />

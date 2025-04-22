@@ -4,7 +4,7 @@ import ArBookBoxHorizontal from '../../structure/ArBookBoxHorizontal/ArBookBoxHo
 import ArBookImage1 from '../../assets/arbook-image/arbook-img1.png'
 import Heading from '../../structure/Heading/Heading'
 
-const arBooks = [
+export const arBooks = [
     {
         id: 1,
         title: "AR ALPHABETS",
@@ -14,8 +14,10 @@ const arBooks = [
                         nesciunt quaerat ipsum neque incidunt at. Quisquam inventore voluptas placeat tempore vel, nam ut eos natus, architecto accusantium earum voluptatibus deleniti explicabo, ducimus pariatur mollitia? Voluptates aliquam, neque doloribus reiciendis voluptas ut ipsa, 
                         tempore saepe voluptatum quisquam corporis reprehenderit dolorum, harum inventore. Similique, vero mollitia quod nulla assumenda dolorum atque deserunt vitae ipsam id maiores rem dignissimos accusamus. Molestias totam quos praesentium repellendus placeat architecto fuga.`,
         buyLink: "/buy/ar-alphabets",
-        tryLink: "/ar-book-detail",
-        readMoreLink: "/ar-book-detail",
+        tryLink: "/ditvi-ar/ar-book-detail/ar-alphabets",
+        readMoreLink: "/ditvi-ar/ar-book-detail/ar-alphabets",
+        slug: "ar-alphabets",
+        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D"
     },
     {
         id: 2,
@@ -25,8 +27,11 @@ const arBooks = [
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem recusandae aliquid ipsam consequuntur? Minus fugiat, quam voluptatibus aliquid iusto ducimus adipisci nobis corrupti! Quibusdam, quos ipsum voluptas sed eum facilis eos ullam. Tenetur, aliquid
                         nesciunt quaerat ipsum neque incidunt at. Quisquam inventore voluptas placeat tempore vel, nam ut eos natus, architecto accusantium earum voluptatibus deleniti explicabo, ducimus pariatur mollitia? Voluptates aliquam, neque doloribus reiciendis voluptas ut ipsa, 
                         tempore saepe voluptatum quisquam corporis reprehenderit dolorum, harum inventore. Similique, vero mollitia quod nulla assumenda dolorum atque deserunt vitae ipsam id maiores rem dignissimos accusamus. Molestias totam quos praesentium repellendus placeat architecto fuga.`, buyLink: "/buy/ar-animals",
-        tryLink: "/ar-book-detail",
-        readMoreLink: "/ar-book-detail",
+        tryLink: "/ditvi-ar/ar-book-detail/ar-animals",
+        readMoreLink: "/ditvi-ar/ar-book-detail/ar-animals",
+        slug: "ar-animals",
+        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D"
+
     },
     {
         id: 3,
@@ -36,8 +41,11 @@ const arBooks = [
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem recusandae aliquid ipsam consequuntur? Minus fugiat, quam voluptatibus aliquid iusto ducimus adipisci nobis corrupti! Quibusdam, quos ipsum voluptas sed eum facilis eos ullam. Tenetur, aliquid
                         nesciunt quaerat ipsum neque incidunt at. Quisquam inventore voluptas placeat tempore vel, nam ut eos natus, architecto accusantium earum voluptatibus deleniti explicabo, ducimus pariatur mollitia? Voluptates aliquam, neque doloribus reiciendis voluptas ut ipsa, 
                         tempore saepe voluptatum quisquam corporis reprehenderit dolorum, harum inventore. Similique, vero mollitia quod nulla assumenda dolorum atque deserunt vitae ipsam id maiores rem dignissimos accusamus. Molestias totam quos praesentium repellendus placeat architecto fuga.`, buyLink: "/buy/ar-animals",
-        tryLink: "/ar-book-detail",
-        readMoreLink: "/ar-book-detail",
+        tryLink: "/ditvi-ar/ar-book-detail/ar-planets",
+        readMoreLink: "/ditvi-ar/ar-book-detail/ar-planets",
+        slug: "ar-planets",
+        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D"
+
     },
     {
         id: 4,
@@ -47,8 +55,11 @@ const arBooks = [
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem recusandae aliquid ipsam consequuntur? Minus fugiat, quam voluptatibus aliquid iusto ducimus adipisci nobis corrupti! Quibusdam, quos ipsum voluptas sed eum facilis eos ullam. Tenetur, aliquid
                         nesciunt quaerat ipsum neque incidunt at. Quisquam inventore voluptas placeat tempore vel, nam ut eos natus, architecto accusantium earum voluptatibus deleniti explicabo, ducimus pariatur mollitia? Voluptates aliquam, neque doloribus reiciendis voluptas ut ipsa, 
                         tempore saepe voluptatum quisquam corporis reprehenderit dolorum, harum inventore. Similique, vero mollitia quod nulla assumenda dolorum atque deserunt vitae ipsam id maiores rem dignissimos accusamus. Molestias totam quos praesentium repellendus placeat architecto fuga.`, buyLink: "/buy/ar-animals",
-        tryLink: "/ar-book-detail",
-        readMoreLink: "/ar-book-detail",
+        tryLink: "/ditvi-ar/ar-book-detail/ar-vegetables",
+        readMoreLink: "/ditvi-ar/ar-book-detail/ar-vegetables",
+        slug: "ar-vegetables",
+        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D"
+
     }
 
 ]

@@ -1,4 +1,4 @@
-.whyar-inner {
+/* .whyar-inner {
     background-image: url(../../assets/background/bluewithplane.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -13,10 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* Center the circles within the container */
     flex-wrap: wrap;
-    /* gap: 0px; */
-    /* Allow wrapping when space is tight */
     margin-bottom: 15rem;
     padding-top: 5rem;
 
@@ -24,19 +21,14 @@
 
 .whyar-content {
     width: 50%;
-    /* Responsive width */
     max-width: 290px;
     aspect-ratio: 1 / 1;
-    /* Maintain a 1:1 aspect ratio for a perfect circle */
     background-color: var(--secondary-color);
     border-radius: 50%;
-    /* Make the container circular */
     overflow: hidden;
-    /* Hide overflow for circular clipping */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 5px dashed var(--primary-color); */
     border: 5px dashed var(--primary-color);
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -57,4 +49,128 @@
 
 .whyar-heading h1 {
     color: var(--primary-color);
+} */
+
+
+:root {
+    --circle-size: 250px;
+    --circle-gap: 1rem;
+}
+
+.whyar {
+    padding: 4rem 0;
+    overflow: hidden;
+}
+
+.whyar-inner {
+    background-image: url(../../assets/background/bluewithplane.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 100%;
+    position: relative;
+    padding: 2rem 0;
+}
+
+.whyar-heading {
+    margin: 0 auto 3rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.whyar-heading h1 {
+    color: var(--primary-color);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    line-height: 1.4;
+}
+
+.whyar-circle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--circle-gap);
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.whyar-content {
+    width: var(--circle-size);
+    height: var(--circle-size);
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    border: 5px dashed var(--primary-color);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    
+}
+
+.whyar-text {
+    text-align: center;
+    max-width: 80%;
+}
+
+.whyar-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.whyar-text h3 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.whyar-text p {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    :root {
+        --circle-size: 220px;
+    }
+    .whyar-circle {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    :root {
+        --circle-size: 200px;
+    }
+    .whyar-circle {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .whyar-circle {
+        
+    }
+    .whyar-content {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --circle-size: 200px;
+    }
+    .whyar-circle {
+        flex-direction: column;
+        align-items: center;
+    }
+    .whyar {
+        padding: 2rem 0;
+    }
+    .whyar-inner {
+        padding-bottom: 8rem;
+    }
 }

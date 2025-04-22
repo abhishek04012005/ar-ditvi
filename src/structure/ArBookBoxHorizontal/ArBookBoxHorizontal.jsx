@@ -18,8 +18,8 @@ const ArBookBoxHorizontal = ({ ArBookHorizontal }) => {
     }, [location.pathname]);
 
     // Handle try button click
-    const handleTryClick = (tryLink) => {
-        navigate(tryLink);
+    const handleTryClick = (tryLink, bookSlug) => {
+        navigate(`/ar-book-detail/${bookSlug}`);
         window.scrollTo(0, 0);
     };
 
@@ -45,10 +45,10 @@ const ArBookBoxHorizontal = ({ ArBookHorizontal }) => {
                                         <img src={book.image} alt="" />
                                     </div>
                                     <div className="arbook-box-horizontal-button">
-                                        <Link> <button className='arbook-box-horizontal-btn-left'>BUY AR!</button></Link>
+                                        <button className='arbook-box-horizontal-btn-left'>BUY AR!</button>
                                         <button
                                             className='arbook-box-horizontal-btn-right'
-                                            onClick={() => handleTryClick(book.tryLink)}
+                                            onClick={() => handleTryClick(book.tryLink, book.slug)}
                                         >
                                             TRY AR!
                                         </button>
@@ -65,7 +65,7 @@ const ArBookBoxHorizontal = ({ ArBookHorizontal }) => {
                                         </p>
                                     </div>
                                     <div className="arbook-box-horizontal-text-button">
-                                        <button className='arbook-box-horizontal-btn-text' onClick={()=> handleTryClick(book.readMoreLink)}>Read More</button>
+                                        <button className='arbook-box-horizontal-btn-text' onClick={()=> handleTryClick(book.readMoreLink, book.slug)}>Read More</button>
                                     </div>
                                 </div>
                             </Grid>

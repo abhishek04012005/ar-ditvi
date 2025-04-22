@@ -3,11 +3,29 @@ import './ARBookDetails.css'
 import { Grid } from '@mui/material'
 import Heading from '../../structure/Heading/Heading'
 import Container from '../../structure/Container/Container'
-import BookDetailImage1 from '../../assets/arbook-image/arbook-img1.png'
 import TryNow from '../TryNow/TryNow'
 import RecommendedBooks from '../RecommendedBooks/RecommendedBooks'
+import { useParams } from 'react-router-dom'
+import { arBooks } from '../../components/ArBooks/ArBooks';
 
 const ARBookDetails = () => {
+
+    const { bookSlug } = useParams();
+
+    // Add better error handling
+    if (!bookSlug) {
+        return <div>No book selected</div>;
+    }
+
+    const book = arBooks.find(book => book.slug === bookSlug);
+
+    if (!book) {
+        return <div>Book not found</div>;
+    }
+
+
+
+
     return (
         <>
             <div className="arbook-details">
@@ -21,7 +39,7 @@ const ARBookDetails = () => {
                             <Grid size={{ xs: 12, md: 5 }}>
                                 <div className="arbook-detail-left">
                                     <div className="arbook-detail-image">
-                                        <img src={BookDetailImage1} alt="" />
+                                        <img src={book.image} alt={book.title} />
                                     </div>
 
                                 </div>
@@ -30,9 +48,9 @@ const ARBookDetails = () => {
                             <Grid size={{ xs: 12, md: 7 }}>
                                 <div className="arbook-detail-right">
                                     <div className="arbook-detail-right-text">
-                                        <h2>AR ALPHABETS</h2>
+                                        <h2>{book.title}</h2>
                                         <p>
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti facere, excepturi architecto consequuntur quaerat aut veritatis natus et at rerum soluta perferendis consequatur esse minima dolore odio doloribus voluptate hic sequi. Tempore consequuntur quos autem, minus velit, molestias vero asperiores cumque doloribus aut reprehenderit hic nam nesciunt ipsam libero vel alias laborum rem delectus maiores officiis possimus aperiam nobis. Fugiat neque itaque minus voluptates asperiores officiis quis in iste! Voluptatibus nam alias maxime quidem labore, ratione praesentium itaque voluptas unde ipsum impedit sed quibusdam eligendi ea ullam nobis error repudiandae culpa optio. Qui corrupti quibusdam doloribus nulla tempore. Rem officiis, accusamus amet ipsa odit dolorem animi, ipsam eveniet, fugiat aliquid temporibus perspiciatis laudantium similique nostrum magnam illo culpa? Soluta a blanditiis esse, voluptas consequuntur at nemo debitis expedita dolorum quidem? Odio ullam consectetur, placeat aut error quidem exercitationem dicta culpa sed voluptatum inventore beatae ab, dolorem quod eaque earum ducimus.
+                                            {book.description}
                                         </p>
                                     </div>
                                     <div className="arbook-detail-button">
