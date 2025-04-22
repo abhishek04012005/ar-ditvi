@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ditvi-ar/static/css/main.924e2f31.css",
+    "main.js": "/ditvi-ar/static/js/main.7fdf5bd1.js",
+    "static/js/453.44a6c668.chunk.js": "/ditvi-ar/static/js/453.44a6c668.chunk.js",
+    "static/media/alphabets-try-now.svg": "/ditvi-ar/static/media/alphabets-try-now.059687f04240920d84604cf3306e0708.svg",
+    "static/media/hero.png": "/ditvi-ar/static/media/hero.058b8da7418267b70557.png",
+    "static/media/arbook-img1.png": "/ditvi-ar/static/media/arbook-img1.8e4318858eb12f5b22c4.png",
+    "static/media/logo.svg": "/ditvi-ar/static/media/logo.4cf74ab761d27e2b7b37d3774257f389.svg",
+    "static/media/arloading.svg": "/ditvi-ar/static/media/arloading.9a5d75b3e47a3a19c70c43fd195a266c.svg",
+    "static/media/contact.svg": "/ditvi-ar/static/media/contact.d96380a81c8f4879510080316e4d063d.svg",
+    "static/media/bluewithplane.svg": "/ditvi-ar/static/media/bluewithplane.0521a5a0e10f2dc8cfab.svg",
+    "static/media/qralphabets.svg": "/ditvi-ar/static/media/qralphabets.17881b68add3d1e41d9d30a9a3866f04.svg",
+    "static/media/headingLine.svg": "/ditvi-ar/static/media/headingLine.6be4e1391659226858db60cd601c4472.svg",
+    "static/media/slick.svg": "/ditvi-ar/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ditvi-ar/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ditvi-ar/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ditvi-ar/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ditvi-ar/index.html",
+    "static/media/yellowbg.svg": "/ditvi-ar/static/media/yellowbg.f0f3ef79df5e75fdf0a4.svg",
+    "static/media/herobg.svg": "/ditvi-ar/static/media/herobg.f40265efeaff5f94dc71.svg",
+    "main.924e2f31.css.map": "/ditvi-ar/static/css/main.924e2f31.css.map",
+    "main.7fdf5bd1.js.map": "/ditvi-ar/static/js/main.7fdf5bd1.js.map",
+    "453.44a6c668.chunk.js.map": "/ditvi-ar/static/js/453.44a6c668.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.924e2f31.css",
+    "static/js/main.7fdf5bd1.js"
+  ]
+}
