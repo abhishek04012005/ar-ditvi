@@ -14,7 +14,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
 
-      <Router basename='/ditvi-ar'>
+      <Router basename='/ar-ditvi'>
         <div className="App">
 
           <Navbar />
