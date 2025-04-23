@@ -8,6 +8,12 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Testimonials.css';
 import Heading from '../../structure/Heading/Heading';
+import Client1 from '../../assets/client/client1.png'
+import Client2 from '../../assets/client/client2.png'
+import Client3 from '../../assets/client/client3.png'
+import Client4 from '../../assets/client/client4.png'
+import Client5 from '../../assets/client/client5.png'
+import Client6 from '../../assets/client/client6.png'
 
 const testimonialsDetails = [
     {
@@ -15,7 +21,7 @@ const testimonialsDetails = [
         name: 'Ajay K.',
         designation: 'Software Developer',
         company: '',
-        image: 'Client1',
+        image: Client1,
     },
     {
         id: 2,
@@ -23,25 +29,43 @@ const testimonialsDetails = [
         name: 'Anuradha K.',
         designation: 'Founder',
         company: 'Ditvi Foundation',
-        image: 'Client1',
+        image: Client2,
     },
     {
         id: 3,
-        testimonial: 'A best place for digital marketing solution.', 
+        testimonial: 'A best place for digital marketing solution.',
         name: 'Hemlata K.',
         designation: 'Web Designer',
         company: '',
-        image: 'Client1',
+        image: Client3,
     },
     {
         id: 4,
         testimonial: 'Top-notch technology, service, support and amazing skills.',
+        name: 'Vishwas',
+        designation: '',
+        company: 'Ditvi Foundation',
+        image: Client4,
+    },
+    {
+        id: 5,
+        testimonial: 'I am very happy with the service provided by Ditvi.',
         name: 'Kanchan K.',
         designation: '',
         company: 'Ditvi Foundation',
-        image: 'Client1',
+        image: Client5,
     },
-    
+    {
+        id: 6,
+        testimonial: 'Ditvi is a great place to work and learn.',
+        name: 'Indu Devi',
+        designation: '',
+        company: 'Ditvi Foundation',
+        image: Client6,
+    },
+
+
+
 ];
 
 

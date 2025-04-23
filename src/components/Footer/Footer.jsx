@@ -39,10 +39,12 @@ const footerLinks = [
         id: 4,
         title: "Contact",
         links: [
-            { name: "Email: info@ar.ditvi.org", path: "mailto:info@ar.ditvi.org" },
+            {name: "Email: care@ditvi.org", path: "mailto:care@ditvi.org"},
             { name: "Phone: +91 9263767441", path: "tel:+919263767441" }
         ]
     }
+
+    
 ];
 
 const socialLinks = [
@@ -54,22 +56,22 @@ const socialLinks = [
     {
         id: 2,
         icon: <Instagram />,
-        url: "https://www.instagram.com/theabhishekchoudhary0401/"
+        url: "https://www.instagram.com/ditvifoundation",
     },
     {
         id: 3,
         icon: <YouTube />,
-        url: "https://www.youtube.com/@theabhishekchoudhary0401"
+        url: "https://www.youtube.com/@ditvifoundation",
     },
     {
         id: 4,
         icon: <Pinterest />,
-        url: "https://in.pinterest.com/theabhishekchoudhary0401/"
+        url: "https://in.pinterest.com/ditvifoundation",
     },
     {
         id: 5,
         icon: <EmailOutlined />,
-        url: "mailto:theabhishekchoudhary0401@gmail.com"
+        url: "mailto:care@ditvi.org",
     },
     {
         id: 6,
