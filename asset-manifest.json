@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ar-ditvi/static/css/main.39e4720b.css",
-    "main.js": "/ar-ditvi/static/js/main.3cb78ce0.js",
+    "main.css": "/ar-ditvi/static/css/main.1b841bad.css",
+    "main.js": "/ar-ditvi/static/js/main.69989e81.js",
     "static/js/453.44a6c668.chunk.js": "/ar-ditvi/static/js/453.44a6c668.chunk.js",
     "static/media/alphabets-try-now.svg": "/ar-ditvi/static/media/alphabets-try-now.059687f04240920d84604cf3306e0708.svg",
     "static/media/hero.png": "/ar-ditvi/static/media/hero.058b8da7418267b70557.png",
@@ -17,14 +17,15 @@
     "static/media/slick.ttf": "/ar-ditvi/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ar-ditvi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ar-ditvi/index.html",
+    "static/media/blue.svg": "/ar-ditvi/static/media/blue.3aeeebeb4917cca671d5.svg",
     "static/media/yellowbg.svg": "/ar-ditvi/static/media/yellowbg.f0f3ef79df5e75fdf0a4.svg",
     "static/media/herobg.svg": "/ar-ditvi/static/media/herobg.f40265efeaff5f94dc71.svg",
-    "main.39e4720b.css.map": "/ar-ditvi/static/css/main.39e4720b.css.map",
-    "main.3cb78ce0.js.map": "/ar-ditvi/static/js/main.3cb78ce0.js.map",
+    "main.1b841bad.css.map": "/ar-ditvi/static/css/main.1b841bad.css.map",
+    "main.69989e81.js.map": "/ar-ditvi/static/js/main.69989e81.js.map",
     "453.44a6c668.chunk.js.map": "/ar-ditvi/static/js/453.44a6c668.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39e4720b.css",
-    "static/js/main.3cb78ce0.js"
+    "static/css/main.1b841bad.css",
+    "static/js/main.69989e81.js"
   ]
 }
