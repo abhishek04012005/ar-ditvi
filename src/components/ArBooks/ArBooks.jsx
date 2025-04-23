@@ -17,7 +17,9 @@ export const arBooks = [
         tryLink: "/ar-ditvi/ar-book-detail/ar-alphabets",
         readMoreLink: "/ar-ditvi/ar-book-detail/ar-alphabets",
         slug: "ar-alphabets",
-        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D"
+        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D",
+        amazonLink: "https://www.amazon.in/your-product-link",
+        flipkartLink: "https://www.flipkart.com/your-product-link",
     },
     {
         id: 2,
@@ -30,7 +32,9 @@ export const arBooks = [
         tryLink: "/ar-ditvi/ar-book-detail/ar-animals",
         readMoreLink: "/ar-ditvi/ar-book-detail/ar-animals",
         slug: "ar-animals",
-        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D"
+        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D",
+        amazonLink: "https://www.amazon.in/your-product-link",
+        flipkartLink: "https://www.flipkart.com/your-product-link",
 
     },
     {
@@ -44,7 +48,9 @@ export const arBooks = [
         tryLink: "/ar-ditvi/ar-book-detail/ar-planets",
         readMoreLink: "/ar-ditvi/ar-book-detail/ar-planets",
         slug: "ar-planets",
-        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D"
+        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D",
+        amazonLink: "https://www.amazon.in/your-product-link",
+        flipkartLink: "https://www.flipkart.com/your-product-link",
 
     },
     {
@@ -58,7 +64,9 @@ export const arBooks = [
         tryLink: "/ar-ditvi/ar-book-detail/ar-vegetables",
         readMoreLink: "/ar-ditvi/ar-book-detail/ar-vegetables",
         slug: "ar-vegetables",
-        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D"
+        recommendedDescription: "Discover wildlife like never before through interactive Augmented Reality experiences! D",
+        amazonLink: "https://www.amazon.in/your-product-link",
+        flipkartLink: "https://www.flipkart.com/your-product-link",
 
     }
 

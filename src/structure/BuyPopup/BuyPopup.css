@@ -117,3 +117,86 @@
         padding: 1rem;
     }
 }
+
+/* ... existing styles ... */
+
+.book-options {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ebook-section,
+.paper-section {
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: #f8f8f8;
+}
+
+.ebook-section h4,
+.paper-section h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.buy-btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ebook-btn {
+    background: var(--primary-color);
+    color: white;
+}
+
+.marketplace-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.marketplace-btn {
+    flex: 1;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.amazon {
+    background: #FF9900;
+    color: black;
+}
+
+.flipkart {
+    background: #2874F0;
+    color: white;
+}
+
+.marketplace-btn:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .book-options {
+        gap: 1rem;
+    }
+
+    .marketplace-buttons {
+        flex-direction: column;
+    }
+
+    .ebook-section,
+    .paper-section {
+        padding: 1rem;
+    }
+}

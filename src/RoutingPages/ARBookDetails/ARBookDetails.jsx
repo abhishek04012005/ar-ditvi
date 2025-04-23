@@ -16,7 +16,6 @@ const ARBookDetails = () => {
 
     const { bookSlug } = useParams();
 
-    // Add better error handling
     if (!bookSlug) {
         return <div>No book selected</div>;
     }
