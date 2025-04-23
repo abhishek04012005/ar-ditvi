@@ -18,3 +18,12 @@
    margin: 0;
    padding: 0;
 }
+
+
+@media (max-width: 1200px) { 
+ 
+    .heading-text p {
+        font-size: 1.8rem;
+    }
+}
+

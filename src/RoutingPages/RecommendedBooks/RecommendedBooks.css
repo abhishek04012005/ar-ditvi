@@ -40,3 +40,16 @@
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
+
+@media (max-width: 1200px) { 
+ 
+    .recommended-book-box {
+        padding: 1rem;
+    }
+    .recommended-book-button {
+        gap: 5px;
+    }
+    .recommended-book-button button {
+        width: 10rem;
+    }
+}
