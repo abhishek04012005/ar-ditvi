@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ARBookDetails.css'
 import { Grid } from '@mui/material'
 import Heading from '../../structure/Heading/Heading'
@@ -7,8 +7,12 @@ import TryNow from '../TryNow/TryNow'
 import RecommendedBooks from '../RecommendedBooks/RecommendedBooks'
 import { useParams } from 'react-router-dom'
 import { arBooks } from '../../components/ArBooks/ArBooks';
+import BuyPopup from '../../structure/BuyPopup/BuyPopup'
+
 
 const ARBookDetails = () => {
+
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     const { bookSlug } = useParams();
 
@@ -23,6 +27,10 @@ const ARBookDetails = () => {
         return <div>Book not found</div>;
     }
 
+
+    const handleBuyClick = () => {
+        setIsPopupOpen(true);
+    };
 
 
 
@@ -54,7 +62,13 @@ const ARBookDetails = () => {
                                         </p>
                                     </div>
                                     <div className="arbook-detail-button">
-                                        <button className='arbook-detail-btn-left'>BUY NOW</button>
+
+                                        <button
+                                            className='arbook-detail-btn-left'
+                                            onClick={handleBuyClick}
+                                        >
+                                            BUY AR!
+                                        </button>
                                         <button className='arbook-detail-btn-right'>FREE TRIAL E-BOOK</button>
                                     </div>
                                 </div>
@@ -63,6 +77,12 @@ const ARBookDetails = () => {
                     </div>
                 </Container>
             </div>
+
+            <BuyPopup
+                isOpen={isPopupOpen}
+                onClose={() => setIsPopupOpen(false)}
+                book={book}
+            />
             <TryNow />
             <RecommendedBooks />
         </>
