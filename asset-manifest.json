@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ar-ditvi/static/css/main.5ef45c99.css",
-    "main.js": "/ar-ditvi/static/js/main.f9fb5db9.js",
+    "main.css": "/ar-ditvi/static/css/main.4b389690.css",
+    "main.js": "/ar-ditvi/static/js/main.0d437ee9.js",
     "static/js/453.44a6c668.chunk.js": "/ar-ditvi/static/js/453.44a6c668.chunk.js",
     "static/media/alphabets-try-now.svg": "/ar-ditvi/static/media/alphabets-try-now.059687f04240920d84604cf3306e0708.svg",
     "static/media/hero.png": "/ar-ditvi/static/media/hero.058b8da7418267b70557.png",
@@ -26,12 +26,12 @@
     "static/media/blue.svg": "/ar-ditvi/static/media/blue.3aeeebeb4917cca671d5.svg",
     "static/media/yellowbg.svg": "/ar-ditvi/static/media/yellowbg.f0f3ef79df5e75fdf0a4.svg",
     "static/media/herobg.svg": "/ar-ditvi/static/media/herobg.f40265efeaff5f94dc71.svg",
-    "main.5ef45c99.css.map": "/ar-ditvi/static/css/main.5ef45c99.css.map",
-    "main.f9fb5db9.js.map": "/ar-ditvi/static/js/main.f9fb5db9.js.map",
+    "main.4b389690.css.map": "/ar-ditvi/static/css/main.4b389690.css.map",
+    "main.0d437ee9.js.map": "/ar-ditvi/static/js/main.0d437ee9.js.map",
     "453.44a6c668.chunk.js.map": "/ar-ditvi/static/js/453.44a6c668.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ef45c99.css",
-    "static/js/main.f9fb5db9.js"
+    "static/css/main.4b389690.css",
+    "static/js/main.0d437ee9.js"
   ]
 }
