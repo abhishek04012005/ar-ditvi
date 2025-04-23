@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/ar-ditvi/static/css/main.1b841bad.css",
-    "main.js": "/ar-ditvi/static/js/main.69989e81.js",
+    "main.css": "/ar-ditvi/static/css/main.5ef45c99.css",
+    "main.js": "/ar-ditvi/static/js/main.f9fb5db9.js",
     "static/js/453.44a6c668.chunk.js": "/ar-ditvi/static/js/453.44a6c668.chunk.js",
     "static/media/alphabets-try-now.svg": "/ar-ditvi/static/media/alphabets-try-now.059687f04240920d84604cf3306e0708.svg",
     "static/media/hero.png": "/ar-ditvi/static/media/hero.058b8da7418267b70557.png",
     "static/media/arbook-img1.png": "/ar-ditvi/static/media/arbook-img1.8e4318858eb12f5b22c4.png",
+    "static/media/client5.png": "/ar-ditvi/static/media/client5.6fd4efdacd35756ca31d.png",
     "static/media/logo.svg": "/ar-ditvi/static/media/logo.4cf74ab761d27e2b7b37d3774257f389.svg",
     "static/media/arloading.svg": "/ar-ditvi/static/media/arloading.9a5d75b3e47a3a19c70c43fd195a266c.svg",
+    "static/media/client6.png": "/ar-ditvi/static/media/client6.e2d8fa6c5d8f4a6f462f.png",
+    "static/media/client3.png": "/ar-ditvi/static/media/client3.9626dcd5a85f2cf4cebe.png",
+    "static/media/client1.png": "/ar-ditvi/static/media/client1.3c74b0c15e84af8ad94c.png",
+    "static/media/client4.png": "/ar-ditvi/static/media/client4.7bafaff1494a70f0ead1.png",
+    "static/media/client2.png": "/ar-ditvi/static/media/client2.a272bea2345108799168.png",
     "static/media/contact.svg": "/ar-ditvi/static/media/contact.d96380a81c8f4879510080316e4d063d.svg",
     "static/media/bluewithplane.svg": "/ar-ditvi/static/media/bluewithplane.0521a5a0e10f2dc8cfab.svg",
     "static/media/qralphabets.svg": "/ar-ditvi/static/media/qralphabets.17881b68add3d1e41d9d30a9a3866f04.svg",
@@ -20,12 +26,12 @@
     "static/media/blue.svg": "/ar-ditvi/static/media/blue.3aeeebeb4917cca671d5.svg",
     "static/media/yellowbg.svg": "/ar-ditvi/static/media/yellowbg.f0f3ef79df5e75fdf0a4.svg",
     "static/media/herobg.svg": "/ar-ditvi/static/media/herobg.f40265efeaff5f94dc71.svg",
-    "main.1b841bad.css.map": "/ar-ditvi/static/css/main.1b841bad.css.map",
-    "main.69989e81.js.map": "/ar-ditvi/static/js/main.69989e81.js.map",
+    "main.5ef45c99.css.map": "/ar-ditvi/static/css/main.5ef45c99.css.map",
+    "main.f9fb5db9.js.map": "/ar-ditvi/static/js/main.f9fb5db9.js.map",
     "453.44a6c668.chunk.js.map": "/ar-ditvi/static/js/453.44a6c668.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b841bad.css",
-    "static/js/main.69989e81.js"
+    "static/css/main.5ef45c99.css",
+    "static/js/main.f9fb5db9.js"
   ]
 }
